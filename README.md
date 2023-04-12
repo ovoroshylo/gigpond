@@ -133,7 +133,7 @@ python manage.py collectstatic
 ```
 
 #### - SMTP CONFIGURATION
-Go to Wozia/settings.py and update credential
+Go to gigpond/settings.py and update credential
 ```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
