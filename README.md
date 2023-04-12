@@ -31,13 +31,13 @@ Please follow below steps to install and setup all prerequisites:
 
   - `Python` - If you already have installed **Python** on your computer, you can skip this step. Please use Python version 3 or if you are using Python version 2 then make sure to run all the below commands with python insted of python3.
 
-      `For windows`
+      #### For windows
         * Download python from windows store.
         * Select the Python's version to download.
         * Click on the Install Now.
         * Installation in Process
 
-      `For Linux`
+      #### For Linux
         * sudo apt update
         * sudo apt install python3
 
