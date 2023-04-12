@@ -3,15 +3,15 @@
 ![gigpond_home_1](https://user-images.githubusercontent.com/104790363/231290539-64715f7f-0136-4cd8-ac5c-d79f5eb84dae.png)
 
 ## Table of contents
-- [Introduction](#Introduction)
-- [Setup Django](#Setup-Django)
-  * [Prerequisites](#Prerequisites)
-  * [Installation](#Installation)
-- [Green Version(Default Version)](#green-version-default-version)
-- [Blue Version](#Blue-Version)
-- [Purple Version](#Purple-Version)
-- [Light Mode](#Light-Mode)
-- [Dark Mode](#Dark-Mode)
+- [Introduction](#introduction)
+- [Setup Django](#setup-django)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+- [Green Version (Default Version)](#green-version-default-version)
+- [Blue Version](#blue-version)
+- [Purple Version](#purple-version)
+- [Light Mode](#light-mode)
+- [Dark Mode](#dark-mode)
 - [Set Default Home Page](#Set-Default-Home-Page)
   * [manage.py Structure](#manage.py-structure)
   * [Tips](#Tips)
@@ -86,7 +86,7 @@ To setup the Landing theme, follow below-mentioned steps:
 
 #### - SMTP CONFIGURATION
 
-## Green Version(Default Version)
+## Green Version (Default Version)
 
 ## Blue Version
 
