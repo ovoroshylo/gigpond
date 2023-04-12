@@ -80,8 +80,15 @@ After you finished with the above steps, you can run the following commands into
 Command | Description
 :--- | :---
 python3 -m venv env_name | Create Virtual Environment & on Linux & mac OS
-python3 -m venv env_name | Create Virtual Environment & on Linux & mac OS
+python -m venv env_name	| Create Virtual Environment on Windows OS
+source environment_name/bin/activate | Activate Environment on Linux & mac OS
+environment_name\Scripts\activate	| Activate Environment on Windows OS
+pip3 install django	| Install Django on Linux & mac OS
+pip install Django | Install Django on Windows OS
 
+`Note: `Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
+
+After you finished with the above steps, you can run the following commands into the terminal / command prompt from the root directory of the project to run the project locally:
 
 #### - Database Connectivity
 
