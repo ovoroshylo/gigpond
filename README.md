@@ -107,7 +107,7 @@ DATABASES = {
 ```
 
 #### - Run below command for database migration
-For Windows: `python manage.py migrate`
+For Windows: `python manage.py migrate`<br>
 For Linux: `python3 manage.py migrate`
 
 #### - To create a superuser run the below command
