@@ -124,7 +124,7 @@ For Windows: `python manage.py runserver`
 For Linux: `python3 manage.py runserver`
 
 #### - To load static files
-Go to Jobcy/setings.py and add following command:-
+Go to gigpond/setings.py and add following command:-
 ```
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
