@@ -13,8 +13,8 @@
 - [Light Mode](#light-mode)
 - [Dark Mode](#dark-mode)
 - [Set Default Home Page](#set-default-home-page)
-  * [manage.py Structure](#managepy-structure)
-  * [Tips](#tips)
+- [manage.py Structure](#managepy-structure)
+- [Tips](#tips)
 - [Changelog](#changelog)
 
 ## Introduction
@@ -187,7 +187,7 @@ and update code `path('', views.Index2.as_view(),name='index')` at line number 2
 Go to `gigpond/urls.py.`
 and update code `path('', views.Index3.as_view(),name='index')` at line number 24.
 
-### manage.py Structure
+## manage.py Structure
 ```
   #!/usr/bin/env python
     """Django's command-line utility for Landingistrative tasks."""
@@ -212,7 +212,7 @@ and update code `path('', views.Index3.as_view(),name='index')` at line number 2
         main()
   ```
 
-### Tips
+## Tips
 `SCSS:` I suggest you not to do any changes in any scss files from `src/scss/custom` folders because it will trouble in future updates so I am suggesting that if you want to make any changes you can create a new `custom.scss` file and use that instead of the theme's file. If you have any questions beyond this documentation, feel free to contact us at ovorshylo3@gmail.com
 
 ## Changelog
