@@ -1,4 +1,4 @@
-# ![gigpond](https://user-images.githubusercontent.com/104790363/231361048-413f09c9-19b7-4ca6-b500-ba831f55fe31.png)
+![logo-dark](https://user-images.githubusercontent.com/104790363/231464851-3c9545f0-41db-4f8f-80df-59c8a2337474.png)
 
 ![gigpond_home_1](https://user-images.githubusercontent.com/104790363/231290539-64715f7f-0136-4cd8-ac5c-d79f5eb84dae.png)
 
