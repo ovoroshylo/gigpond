@@ -36,25 +36,28 @@ Please follow below steps to install and setup all prerequisites:
   #### - Python
   If you already have installed `Python` on your computer, you can skip this step. Please use Python version 3 or if you are using Python version 2 then make sure to run all the below commands with python insted of python3.
 
-  ##### For windows
-  * Download python from windows store.
-  * Select the Python's version to download.
-  * Click on the Install Now.
-  * Installation in Process
+    ##### For windows
+    * Download python from windows store.
+    * Select the Python's version to download.
+    * Click on the Install Now.
+    * Installation in Process
 
-  ##### For Linux
-  * sudo apt update
-  * sudo apt install python3
+    ##### For Linux
+    * sudo apt update
+    * sudo apt install python3
 
   #### - Check Pip version
   * py -m pip --version
   * upgrade pip
   * py -m pip install --upgrade pip
 
-  #### Virtualenv
+  #### - Virtualenv
   Make sure to have the `virtualenv` installed globally & running on your computer. If you already have installed on your computer, you can skip this step.
 
-  ##### Virtualenv installation command for linux & mac os
-  `python3 -m pip install --user virtualenv`
-  ##### Virtualenv installation command for Windows
-  `py -m pip install --user virtualenv`
+    ##### Virtualenv installation command for linux & mac os
+    `python3 -m pip install --user virtualenv`
+
+    ##### Virtualenv installation command for Windows
+    `py -m pip install --user virtualenv`
+
+### Installation
