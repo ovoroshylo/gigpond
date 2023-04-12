@@ -45,7 +45,7 @@ Please follow below steps to install and setup all prerequisites:
         * sudo apt update
         * sudo apt install python3
 
-  - Check Pip version
+  - **Check Pip version**
     * py -m pip --version
     * upgrade pip
     * py -m pip install --upgrade pip
