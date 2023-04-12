@@ -198,7 +198,7 @@ and update code `path('', views.Index3.as_view(),name='index')` at line number 2
   ```
 
 ### Tips
-`SCSS:` We suggest you not to do any changes in any scss files from src/scss/custom folders because it will trouble in future updates so we are suggesting that if you want to make any changes you can create a new custom.scss file and use that instead of the theme's file. If you have any questions beyond this documentation, feel free to contact us at themesdesign.in@gmail.com
+`SCSS:` I suggest you not to do any changes in any scss files from `src/scss/custom` folders because it will trouble in future updates so I am suggesting that if you want to make any changes you can create a new `custom.scss` file and use that instead of the theme's file. If you have any questions beyond this documentation, feel free to contact us at ovorshylo3@gmail.com
 
 ## Changelog
 `v1.0.0` - 25 April 2022
