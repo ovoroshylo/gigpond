@@ -21,19 +21,19 @@ If you have any questions, feel free to email me on ovorshylo3@gmail.com
 ### Prerequuisites
 Please follow below steps to install and setup all prerequisites:
 
-  #### 1.Nodejs
+  #### - Nodejs
   Make sure the version of `Node.js` is greater than 14**. Use the `LTS` Version for the Node Js.
 
-  #### 2.Yarn
+  #### - Yarn
   Make sure to have the `Yarn` installed & running in your computer. We recommend `Yarn` instead of `NPM`.
 
-  #### 3.Gulp 
+  #### - Gulp 
   Make sure you have `Gulp` installed & running on your computer. If you already installed gulp, run command `npm install -g gulp` from your terminal.
 
-  #### 4.Git 
+  #### - Git 
   You must have `Git` installed & running on your PC. Installation For setting up the Landing theme, follow the below process.
 
-  #### 5.Python
+  #### - Python
   If you already have installed `Python` on your computer, you can skip this step. Please use Python version 3 or if you are using Python version 2 then make sure to run all the below commands with python insted of python3.
 
   ##### For windows
@@ -46,7 +46,7 @@ Please follow below steps to install and setup all prerequisites:
   * sudo apt update
   * sudo apt install python3
 
-  #### 6.Check Pip version
+  #### - Check Pip version
   * py -m pip --version
   * upgrade pip
   * py -m pip install --upgrade pip
