@@ -43,9 +43,9 @@ Bootstrap Version >> 5.1.1
 
 ## Installing virtualenv   
   1. linux & mac os
-   ->python3 -m pip install --user virtualenv
+    ->python3 -m pip install --user virtualenv
   2. Windows
-  ->py -m pip install --user virtualenv
+    ->py -m pip install --user virtualenv
 
 ### Create Virtual Environment
   1. linux & mac os
