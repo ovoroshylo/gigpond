@@ -13,7 +13,7 @@
 - [Light Mode](#light-mode)
 - [Dark Mode](#dark-mode)
 - [Set Default Home Page](#Set-Default-Home-Page)
-  * [manage.py Structure](#manage.py-structure)
+  * [manage.py Structure](#managepy-structure)
   * [Tips](#Tips)
 - [Changelog](#Changelog)
 
