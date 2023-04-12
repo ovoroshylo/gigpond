@@ -4,7 +4,7 @@
 
 ## Table of contents
 - [Introduction](#Introduction)
-- [Setup Django](#Setup)
+- [Setup Django](#Setup-Django)
   * [Prerequisites](#Prerequisites)
   * [Simulator CLI](#simulator-cli)
   * [Other utilities](#other-utilities)
@@ -37,7 +37,7 @@ Please follow below steps to install and setup all prerequisites:
      If you already have installed **Python** on your computer, you can skip this step. Please use Python version 3 or if you are using Python version 2 then make sure to run all the below commands with python insted of python3.
 
       **For windows**
-        ***Download python from windows store.***
+        * Download python from windows store.
         * Select the Python's version to download.
         * Click on the Install Now.
         * Installation in Process
