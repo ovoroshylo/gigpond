@@ -50,3 +50,11 @@ Please follow below steps to install and setup all prerequisites:
   * py -m pip --version
   * upgrade pip
   * py -m pip install --upgrade pip
+
+  #### Virtualenv
+  Make sure to have the `virtualenv` installed globally & running on your computer. If you already have installed on your computer, you can skip this step.
+
+  ##### Virtualenv installation command for linux & mac os
+  `python3 -m pip install --user virtualenv`
+  ##### Virtualenv installation command for Windows
+  `py -m pip install --user virtualenv`
