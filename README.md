@@ -54,9 +54,11 @@ Please follow below steps to install and setup all prerequisites:
   * sudo apt install python3
 
   #### - Check Pip version
+  ```
   * py -m pip --version
   * upgrade pip
   * py -m pip install --upgrade pip
+  ```
 
   #### - Virtualenv
   Make sure to have the `virtualenv` installed globally & running on your computer. If you already have installed on your computer, you can skip this step.
