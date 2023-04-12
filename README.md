@@ -145,18 +145,28 @@ DEFAULT_FROM_EMAIL = 'YOUR EMAIL ADDRESS'
 ```
 
 ## Green Version (Default Version)
+![gigpond_green](https://user-images.githubusercontent.com/104790363/231354979-6a0c61df-139d-4e49-9736-93f2b00625c7.png)
+
 The green color version is a default version set by `color="green"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Blue Version
+![gigpond_blue](https://user-images.githubusercontent.com/104790363/231355411-fb9ce096-5621-43ac-9ffe-707ac36a9442.png)
+
 The Blue color set by `color="blue"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Purple Version
+![gigpond_purple](https://user-images.githubusercontent.com/104790363/231355488-423f3b4f-97c5-47ed-8bd5-16611884dbfc.png)
+
 The Purple color set by `color="purple"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Light Mode
+![gigpond_light](https://user-images.githubusercontent.com/104790363/231355795-4648712e-f188-443b-8661-0e5ed7e0e61c.png)
+
 The Light color set by `var mode = 'light'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
 ## Dark Mode
+![gigpond_dark](https://user-images.githubusercontent.com/104790363/231355865-fae2e287-9e3a-4623-b674-db271d629401.png)
+
 The Dark color set by `var mode = 'dark'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
 ## Set Default Home Page
@@ -165,7 +175,7 @@ Go to `gigpond/urls.py.`
 and update code `path('', views.Index.as_view(),name='index')` at line number 24.
 
 #### - Index 2
-`Go to gigpond/urls.py.`
+Go to `gigpond/urls.py.`
 and update code `path('', views.Index2.as_view(),name='index')` at line number 24.
 
 #### - Index 3
