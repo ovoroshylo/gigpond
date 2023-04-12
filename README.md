@@ -1,38 +1,40 @@
-Gigpond Installation in Django Python
-Python Version >> 3.8.10
-Django Version >> 3.2.7
-Bootstrap Version >> 5.1.1
->>>Installation Python
+# Gigpond
+  Gigpond Installation in Django Python
+  Python Version >> 3.8.10
+  Django Version >> 3.2.7
+  Bootstrap Version >> 5.1.1
+
+## Installation Python
  ->https://www.python.org/downloads/
->>For Windows OS 
+### For Windows OS 
  -Download python  from windows store
  -Select the Python's version to download.
  -Click on the Install Now
  -Installation in Process
->>For Linux OS
+### For Linux OS
  -sudo apt update
  -sudo apt install python3
 
->>>Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
+> Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
 
->>>Open terminal
+> Open terminal
  -python --version
  
->>>To check pip version  
+> To check pip version  
   -py -m pip --version
   -upgread pip 
   -py -m pip install --upgrade pip
->>>Installing virtualenv   
+> Installing virtualenv   
   #linux & mac os
    ->python3 -m pip install --user virtualenv
   #Windows
   ->py -m pip install --user virtualenv
->>>Create Virtual Environment
+> Create Virtual Environment
   #linux & mac os
   ->python3 -m venv environment_name
   #Windows
   ->python -m venv environment_name
->>>Activate Environment
+> Activate Environment
   #Linux & mac os
   ->source environment_name/bin/activate
   #Windows
