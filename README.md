@@ -25,6 +25,11 @@ This is a Python3/Django project so you have to make sure the Python installed p
 
 If you have any questions, feel free to email me on ovorshylo3@gmail.com
 ## Setup Django
+Gigpond Installation in Django Python
+- Python Version >> 3.8.10
+- Django Version >> 3.2.7
+- Bootstrap Version >> 5.1.1
+
 ### Prerequuisites
 Please follow below steps to install and setup all prerequisites:
 
@@ -91,7 +96,7 @@ pip install Django | Install Django on Windows OS
 After you finished with the above steps, you can run the following commands into the terminal / command prompt from the root directory of the project to run the project locally:
 
 #### - Database Connectivity
-Goto settings.py of gigpond directory and update below settings.
+Go to `settings.py` of `gigpond` directory and update below settings.
 
 ```
 DATABASES = {
@@ -124,7 +129,7 @@ For Windows: `python manage.py runserver`
 For Linux: `python3 manage.py runserver`
 
 #### - To load static files
-Go to gigpond/setings.py and add following command:-
+Go to `gigpond/setings.py` and add following command:-
 ```
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
@@ -133,7 +138,7 @@ python manage.py collectstatic
 ```
 
 #### - SMTP CONFIGURATION
-Go to gigpond/settings.py and update credential
+Go to `gigpond/settings.py` and update credential
 ```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
