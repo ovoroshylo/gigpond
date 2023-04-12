@@ -84,7 +84,7 @@ After you finished with the above steps, you can run the following commands into
 
 Command | Description
 :--- | :---
-<span style="color: red">python3 -m venv env_name</span> | Create Virtual Environment & on Linux & mac OS
+<span style="color: red">*python3 -m venv env_name*</span> | Create Virtual Environment & on Linux & mac OS
 python -m venv env_name	| Create Virtual Environment on Windows OS
 source environment_name/bin/activate | Activate Environment on Linux & mac OS
 environment_name\Scripts\activate	| Activate Environment on Windows OS
