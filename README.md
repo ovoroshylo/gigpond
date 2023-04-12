@@ -100,60 +100,58 @@
     DEFAULT_FROM_EMAIL = 'YOUR EMAIL ADDRESS'
     SERVER_EMAIL = 'YOUR EMAIL ADDRESS'
 
->>>To load Static Files:-
->Go to gigpond/setings.py
--Add following command:-
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+  - Add following command:
+    STATIC_URL = '/static/'
+    STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 
->Run Command In Terminal
--python manage.py collectstatic
--Goto settings.py of Main Directory
-
+  - Run Command In Terminal
+    > python manage.py collectstatic
+    > Goto settings.py of Main Directory
 
 #######To Set Default Color#########
- >Goto src/js/pages/switcher.init.js
+Goto src/js/pages/switcher.init.js
 <!--===========================================================================-->
                         <!--Color Mode -->
 <!--===========================================================================-->
-#Make changes according choice at Line No 29
-1.Green 
+## Make changes according choice at Line No 29
+1. Green 
 color = "green"
-2.Blue
+2. Blue
 color = "blue"
-3.Purple 
+3. Purple 
 color = "purple"
- 
+
 <!--===========================================================================-->
 >> To set Default light/dark/RTL Mode
 <!--===========================================================================-->
->>Go src/js/pages/switcher.init.js
+Go src/js/pages/switcher.init.js
 -line number 47
 <!--===========================================================================-->
->For Light theme
+> For Light theme
 var mode = 'light'
->For Dark theme
+> For Dark theme
 var mode = 'dark'
 <!--===========================================================================-->
 <!--===========================================================================-->
 
 ###########To Set Default home page ############
 
- follow this steps:
->>Goto  gigpond/urls.py
-:-At line number 24
---Use following line 
->for index 1
+follow this steps:
+Goto  gigpond/urls.py
+At line number 24 use following line 
+
+> for index 1
 path('', views.Index.as_view(),name='index'),
 
->for index 2
+> for index 2
 path('', views.Index2.as_view(),name='index'),
 
->for index 3
+> for index 3
 path('', views.Index3.as_view(),name='index'),
 
 -> Windows:-python manage.py migrate
 -> Linux:-python3 manage.py migrate
->>>Run your project
--Windows:-python manage.py runserver
--Linux:-python3 manage.py runserver
+
+## Run your project
+- Windows:-python manage.py runserver
+- Linux:-python3 manage.py runserver
