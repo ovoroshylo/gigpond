@@ -91,36 +91,115 @@ pip install Django | Install Django on Windows OS
 After you finished with the above steps, you can run the following commands into the terminal / command prompt from the root directory of the project to run the project locally:
 
 #### - Database Connectivity
+Goto settings.py of main directory and update below settings.
+
+```
+DATABASES = {
+    'default': {
+    'ENGINE': 'django.db.backends.#databaseservername#',
+    'NAME': 'Your Database Name',
+    'USER' : 'Database User Name',
+    'PASSWORD' : 'Your Password',
+    'HOST' : 'Write down Host',
+    'PORT' : 'Write down port',
+    }
+}
+```
 
 #### - Run below command for database migration
+For Windows: `python manage.py migrate`
+For Linux: `python3 manage.py migrate`
 
 #### - To create a superuser run the below command
+`python manage.py createsuperuser`
+enter username Your Username
+enter your Email Address
+enter your Password
+enter your Password again
 
-#### - Note: After open terminal and enter command `gulp`
+#### - `Note:` After open terminal and enter command `gulp`
 
 #### - Run below command for run your project
+For Windows: `python manage.py runserver`
+For Linux: `python3 manage.py runserver`
 
 #### - To load static files
+Go to Jobcy/setings.py and add following command:-
+```
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+STATIC_ROOT= os.path.join(BASE_DIR,'assets')
+python manage.py collectstatic
+```
 
 #### - SMTP CONFIGURATION
+Go to Wozia/settings.py and update credential
+```
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'YOUR EMAIL ADDRESS'
+EMAIL_HOST_PASSWORD = 'YOUR HOST Password'
+DEFAULT_FROM_EMAIL = 'YOUR EMAIL ADDRESS'
+```
 
 ## Green Version (Default Version)
+The green color version is a default version set by `color="green"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Blue Version
+The Blue color set by `color="blue"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Purple Version
+The Purple color set by `color="purple"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Light Mode
+The Light color set by `var mode = 'light'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
 ## Dark Mode
+The Dark color set by `var mode = 'dark'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
 ## Set Default Home Page
-
 #### - Index 1
+Go to `gigpond/urls.py.`
+and update code `path('', views.Index.as_view(),name='index')` at line number 24.
+
 #### - Index 2
+`Go to gigpond/urls.py.`
+and update code `path('', views.Index2.as_view(),name='index')` at line number 24.
+
 #### - Index 3
+Go to `gigpond/urls.py.`
+and update code `path('', views.Index3.as_view(),name='index')` at line number 24.
 
 ### manage.py Structure
+```
+  #!/usr/bin/env python
+    """Django's command-line utility for Landingistrative tasks."""
+    import os
+    import sys
+    
+    def main():
+        """Run Landingistrative tasks."""
+        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xegal.settings')
+        try:
+            from django.core.management import execute_from_command_line
+        except ImportError as exc:
+            raise ImportError(
+                "Couldn't import Django. Are you sure it's installed and "
+                "available on your PYTHONPATH environment variable? Did you "
+                "forget to activate a virtual environment?"
+            ) from exc
+        execute_from_command_line(sys.argv)
+    
+    
+    if __name__ == '__main__':
+        main()
+  ```
+
 ### Tips
+`SCSS:` We suggest you not to do any changes in any scss files from src/scss/custom folders because it will trouble in future updates so we are suggesting that if you want to make any changes you can create a new custom.scss file and use that instead of the theme's file. If you have any questions beyond this documentation, feel free to contact us at themesdesign.in@gmail.com
 
 ## Changelog
+`v1.0.0` - 25 April 2022
+- Initial released
