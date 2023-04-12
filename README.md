@@ -1,91 +1,68 @@
-# Gigpond
-A smart, simple job board.
-
-<<<<<<< HEAD
-Gigpond installation in Django Python
-=======
-Setup should be completed by Installation in Django Python
->>>>>>> 4308ca4 (ovo-gigpond)
+Gigpond Installation in Django Python
 Python Version >> 3.8.10
 Django Version >> 3.2.7
 Bootstrap Version >> 5.1.1
-
-<<<<<<< HEAD
-##Installation Python
-###https://www.python.org/downloads/
-
-##For Windows OS 
-##For Linux OS
-###Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
-=======
-## Installation Python
+>>>Installation Python
  ->https://www.python.org/downloads/
-
-### For Windows OS 
+>>For Windows OS 
  -Download python  from windows store
  -Select the Python's version to download.
  -Click on the Install Now
  -Installation in Process
-
-### For Linux OS
+>>For Linux OS
  -sudo apt update
  -sudo apt install python3
 
-> Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
+>>>Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
 
-> Open terminal
+>>>Open terminal
  -python --version
  
-> To check pip version  
+>>>To check pip version  
   -py -m pip --version
   -upgread pip 
   -py -m pip install --upgrade pip
-
-## Installing virtualenv   
-  1. linux & mac os
-    ->python3 -m pip install --user virtualenv
-  2. Windows
-    ->py -m pip install --user virtualenv
-
-### Create Virtual Environment
-  1. linux & mac os
+>>>Installing virtualenv   
+  #linux & mac os
+   ->python3 -m pip install --user virtualenv
+  #Windows
+  ->py -m pip install --user virtualenv
+>>>Create Virtual Environment
+  #linux & mac os
   ->python3 -m venv environment_name
-  2. Windows
+  #Windows
   ->python -m venv environment_name
-
-### Activate Environment
-  1. Linux & mac os
+>>>Activate Environment
+  #Linux & mac os
   ->source environment_name/bin/activate
-  2. Windows
+  #Windows
   ->environment_name\Scripts\activate
  
-## Install Django
-
- ### linux & mac os
+>>>Install Django
+ #linux & mac os
  ->pip3 install django
-
- ### Windows
+ #Windows
  ->pip install django
  
- ### First please check Django properly Installed or not
- 1. Linux/macOS
+>>>First please check Django properly Installed or not
+ #Linux/macOS
  python3 -m django --version
- 2. Windows
+ #Windows
  python  -m django --version
 
-### Open terminal 
+>>>Open terminal 
  -Goto project directory using cd command
 
-### Nodejs
+>>>Nodejs
 ->Make sure to have the Node.js installed & running in your computer
 
-### Yarn
+>>>Yarn
 ->Make sure to have the yarn installed & running in your computer
 
-### gulp     
+>>>gulp     
 ->Make sure to have the gulp installed & running in your computer
 
-### Git
+>>>Git
 ->Make sure to have the git installed globally & running in your computer
 
 -->Now you can just run command `gulp`
@@ -113,13 +90,13 @@ DATABASES = {
     DEFAULT_FROM_EMAIL = 'YOUR EMAIL ADDRESS'
     SERVER_EMAIL = 'YOUR EMAIL ADDRESS'
 
-### To load Static Files:-
-1. Go to gigpond/setings.py
+>>>To load Static Files:-
+>Go to Gigpond/setings.py
 -Add following command:-
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 
-2. Run Command In Terminal
+>Run Command In Terminal
 -python manage.py collectstatic
 -Goto settings.py of Main Directory
 
@@ -129,23 +106,23 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 <!--===========================================================================-->
                         <!--Color Mode -->
 <!--===========================================================================-->
-## Make changes according choice at Line No 29
-### Green 
+#Make changes according choice at Line No 29
+1.Green 
 color = "green"
-### Blue
+2.Blue
 color = "blue"
-### Purple 
+3.Purple 
 color = "purple"
  
 <!--===========================================================================-->
-##  To set Default light/dark/RTL Mode
+>> To set Default light/dark/RTL Mode
 <!--===========================================================================-->
-## Go src/js/pages/switcher.init.js
+>>Go src/js/pages/switcher.init.js
 -line number 47
 <!--===========================================================================-->
-### For Light theme
+>For Light theme
 var mode = 'light'
-### For Dark theme
+>For Dark theme
 var mode = 'dark'
 <!--===========================================================================-->
 <!--===========================================================================-->
@@ -153,21 +130,20 @@ var mode = 'dark'
 ###########To Set Default home page ############
 
  follow this steps:
-## Goto  gigpond/urls.py
+>>Goto  gigpond/urls.py
 :-At line number 24
 --Use following line 
-### for index 1
+>for index 1
 path('', views.Index.as_view(),name='index'),
 
-### for index 2
+>for index 2
 path('', views.Index2.as_view(),name='index'),
 
-### for index 3
+>for index 3
 path('', views.Index3.as_view(),name='index'),
 
 -> Windows:-python manage.py migrate
 -> Linux:-python3 manage.py migrate
-### Run your project
+>>>Run your project
 -Windows:-python manage.py runserver
 -Linux:-python3 manage.py runserver
->>>>>>> 4308ca4 (ovo-gigpond)
