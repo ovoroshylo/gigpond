@@ -91,7 +91,7 @@ pip install Django | Install Django on Windows OS
 After you finished with the above steps, you can run the following commands into the terminal / command prompt from the root directory of the project to run the project locally:
 
 #### - Database Connectivity
-Goto settings.py of main directory and update below settings.
+Goto settings.py of gigpond directory and update below settings.
 
 ```
 DATABASES = {
