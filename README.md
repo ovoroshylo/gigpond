@@ -22,10 +22,10 @@ If you have any questions, feel free to email me on ovorshylo3@gmail.com
 Please follow below steps to install and setup all prerequisites:
 
   - `Nodejs` 
-  
     Make sure the version of **Node.js is greater than 14**. Use the **LTS** Version for the Node Js.
 
-  - `Yarn` - Make sure to have the **Yarn** installed & running in your computer. We recommend **Yarn** instead of **NPM**.
+  - `Yarn`
+    Make sure to have the **Yarn** installed & running in your computer. We recommend **Yarn** instead of **NPM**.
 
   - `Gulp` - Make sure you have **Gulp** installed & running on your computer. If you already installed gulp, run command **npm install -g gulp** from your terminal.
 
