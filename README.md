@@ -78,7 +78,7 @@ Make sure to have all above prerequisites installed & running on your computer
 After you finished with the above steps, you can run the following commands into the terminal / command prompt from the root directory of the project to run the project locally or build for production use:
 
 `Command` | `Description`
---- | ---
+:--- | :---
 python3 -m venv env_name | Create Virtual Environment & on Linux & mac OS
 
 
