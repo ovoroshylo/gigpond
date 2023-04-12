@@ -2923,6 +2923,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gigpond@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "gigpond@workspace:."
+  dependencies:
+    admin-resources: "git+https://github.com/themesbrand/admin-resources#master"
+    bootstrap: ^5.1.3
+    browser-sync: ^2.26.7
+    choices.js: ^9.0.1
+    del: 4.1.1
+    glightbox: ^3.0.7
+    gulp: 4.0.2
+    gulp-autoprefixer: ^6.1.0
+    gulp-cached: 1.1.1
+    gulp-clean-css: ^4.2.0
+    gulp-cssnano: 2.1.3
+    gulp-file-include: 2.0.1
+    gulp-if: 2.0.2
+    gulp-npm-dist: ^1.0.3
+    gulp-rename: ^1.4.0
+    gulp-replace: 1.0.0
+    gulp-rtlcss: ^1.4.1
+    gulp-sass: ^4.0.2
+    gulp-sourcemaps: ^2.6.5
+    gulp-uglify: 3.0.2
+    gulp-useref-plus: 0.0.8
+    gumshoejs: ^5.1.2
+    masonry-layout: ^4.2.2
+    nouislider: ^15.4.0
+    rtlcss: ^3.0.0
+    smooth-scroll: ^16.1.3
+    swiper: ^7.0.3
+  languageName: unknown
+  linkType: soft
+
 "glightbox@npm:^3.0.7":
   version: 3.1.0
   resolution: "glightbox@npm:3.1.0"
@@ -4338,40 +4372,6 @@ __metadata:
   checksum: 2fff548636a7837679aebfe3846a39a6e39683f345f38f1f222414108b58e3782211bb650dee1c9d31957fa94b3522d5bd9aba862442d52c6e3d059a8983d33f
   languageName: node
   linkType: hard
-
-"gigpond@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gigpond@workspace:."
-  dependencies:
-    admin-resources: "git+https://github.com/themesbrand/admin-resources#master"
-    bootstrap: ^5.1.3
-    browser-sync: ^2.26.7
-    choices.js: ^9.0.1
-    del: 4.1.1
-    glightbox: ^3.0.7
-    gulp: 4.0.2
-    gulp-autoprefixer: ^6.1.0
-    gulp-cached: 1.1.1
-    gulp-clean-css: ^4.2.0
-    gulp-cssnano: 2.1.3
-    gulp-file-include: 2.0.1
-    gulp-if: 2.0.2
-    gulp-npm-dist: ^1.0.3
-    gulp-rename: ^1.4.0
-    gulp-replace: 1.0.0
-    gulp-rtlcss: ^1.4.1
-    gulp-sass: ^4.0.2
-    gulp-sourcemaps: ^2.6.5
-    gulp-uglify: 3.0.2
-    gulp-useref-plus: 0.0.8
-    gumshoejs: ^5.1.2
-    masonry-layout: ^4.2.2
-    nouislider: ^15.4.0
-    rtlcss: ^3.0.0
-    smooth-scroll: ^16.1.3
-    swiper: ^7.0.3
-  languageName: unknown
-  linkType: soft
 
 "js-base64@npm:^2.1.8, js-base64@npm:^2.1.9":
   version: 2.6.4
