@@ -18,7 +18,7 @@
 - [Changelog](#changelog)
 
 ## Introduction
-**Gigpond** is a simple and well-organized job listing website built-in Bootstrap version 5.1.3.
+**Gigpond** is a simple and well-organized job listing website built-in `Bootstrap version 5.1.3.`
 Gigpond contains lots of new designs of jobs pages with responsiveness on all screens.
 I have written minimum SCSS and codes to increase performance.
 This is a Python3/Django project so you have to make sure the Python installed primarily and running in your computer.
