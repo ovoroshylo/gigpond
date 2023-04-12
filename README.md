@@ -21,7 +21,9 @@ If you have any questions, feel free to email me on ovorshylo3@gmail.com
 ### Prerequuisites
 Please follow below steps to install and setup all prerequisites:
 
-  - `Nodejs` - Make sure the version of **Node.js is greater than 14**. Use the **LTS** Version for the Node Js.
+  - `Nodejs` 
+  
+  Make sure the version of **Node.js is greater than 14**. Use the **LTS** Version for the Node Js.
 
   - `Yarn` - Make sure to have the **Yarn** installed & running in your computer. We recommend **Yarn** instead of **NPM**.
 
