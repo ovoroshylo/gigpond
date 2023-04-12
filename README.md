@@ -12,10 +12,10 @@
 - [Purple Version](#purple-version)
 - [Light Mode](#light-mode)
 - [Dark Mode](#dark-mode)
-- [Set Default Home Page](#Set-Default-Home-Page)
+- [Set Default Home Page](#set-default-home-page)
   * [manage.py Structure](#managepy-structure)
-  * [Tips](#Tips)
-- [Changelog](#Changelog)
+  * [Tips](#tips)
+- [Changelog](#changelog)
 
 ## Introduction
 Gigpond is a simple and well-organized job listing website built-in Bootstrap version 5.1.3.
