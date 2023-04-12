@@ -5,30 +5,32 @@
   Bootstrap Version >> 5.1.1
 
 ## Installation Python
- ->https://www.python.org/downloads/
+ - https://www.python.org/downloads/
 ### For Windows OS 
- -Download python  from windows store
- -Select the Python's version to download.
- -Click on the Install Now
- -Installation in Process
+ - Download python  from windows store
+ - Select the Python's version to download.
+ - Click on the Install Now
+ - Installation in Process
 ### For Linux OS
- -sudo apt update
- -sudo apt install python3
+ - sudo apt update
+ - sudo apt install python3
 
 > Note: Depending on your installation, you may need to use either pip3 or pip and for python you may need to use either python3 or python.
 
 > Open terminal
- -python --version
+  python --version
  
 > To check pip version  
-  -py -m pip --version
-  -upgread pip 
-  -py -m pip install --upgrade pip
-> Installing virtualenv   
-  #linux & mac os
-   ->python3 -m pip install --user virtualenv
-  #Windows
-  ->py -m pip install --user virtualenv
+  1. py -m pip --version
+  2. upgread pip 
+  3. py -m pip install --upgrade pip
+### Installing virtualenv   
+  - linux & mac os
+    python3 -m pip install --user virtualenv
+
+  - Windows
+    py -m pip install --user virtualenv
+
 > Create Virtual Environment
   #linux & mac os
   ->python3 -m venv environment_name
