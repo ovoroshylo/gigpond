@@ -24,67 +24,73 @@
   1. py -m pip --version
   2. upgread pip 
   3. py -m pip install --upgrade pip
-### Installing virtualenv   
+
+## Installing virtualenv   
   - linux & mac os
     python3 -m pip install --user virtualenv
 
   - Windows
     py -m pip install --user virtualenv
 
-> Create Virtual Environment
-  #linux & mac os
-  ->python3 -m venv environment_name
-  #Windows
-  ->python -m venv environment_name
-> Activate Environment
-  #Linux & mac os
-  ->source environment_name/bin/activate
-  #Windows
-  ->environment_name\Scripts\activate
+### Create Virtual Environment
+  - linux & mac os
+    python3 -m venv environment_name
+
+  - Windows
+    python -m venv environment_name
+
+### Activate Environment
+  - Linux & mac os
+    source environment_name/bin/activate
+  - Windows
+    environment_name\Scripts\activate
  
->>>Install Django
- #linux & mac os
- ->pip3 install django
- #Windows
- ->pip install django
+## Install Django
+  - linux & mac os
+    pip3 install django
+
+  - Windows
+    pip install django
  
->>>First please check Django properly Installed or not
- #Linux/macOS
- python3 -m django --version
- #Windows
- python  -m django --version
+### First please check Django properly Installed or not
+ - Linux/macOS
+  python3 -m django --version
 
->>>Open terminal 
- -Goto project directory using cd command
+ - Windows
+  python  -m django --version
 
->>>Nodejs
-->Make sure to have the Node.js installed & running in your computer
+## Other requirements
+  Goto project directory using cd command
 
->>>Yarn
-->Make sure to have the yarn installed & running in your computer
+### Nodejs
+  Make sure to have the Node.js installed & running in your computer
 
->>>gulp     
-->Make sure to have the gulp installed & running in your computer
+### Yarn
+  Make sure to have the yarn installed & running in your computer
 
->>>Git
-->Make sure to have the git installed globally & running in your computer
+### gulp     
+  Make sure to have the gulp installed & running in your computer
+  If successfully installed, now you can just run command `gulp`
 
--->Now you can just run command `gulp`
+### Git
+  Make sure to have the git installed globally & running in your computer
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.#databaseservername#',
-        'NAME': 'Your Database Name',
-        'USER' : 'Database User Name',
-        'PASSWORD' : 'Your Password',
-        'HOST' : "Write down Host",
-        'PORT' : 'Write down port',
-                
+## Configurations
+  Goto gigpond/settings.py of Main Directory
+
+  - DATABASE CONFIGURATION
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.#databaseservername#',
+            'NAME': 'Your Database Name',
+            'USER' : 'Database User Name',
+            'PASSWORD' : 'Your Password',
+            'HOST' : "Write down Host",
+            'PORT' : 'Write down port',
+        }
     }
-}
 
--Goto settings.py of Main Directory
--SMTP CONFIGURATION
+  - SMTP CONFIGURATION
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_PORT = 587
@@ -95,7 +101,7 @@ DATABASES = {
     SERVER_EMAIL = 'YOUR EMAIL ADDRESS'
 
 >>>To load Static Files:-
->Go to Gigpond/setings.py
+>Go to gigpond/setings.py
 -Add following command:-
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
