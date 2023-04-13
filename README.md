@@ -1,6 +1,6 @@
 ![logo-dark](https://user-images.githubusercontent.com/104790363/231464851-3c9545f0-41db-4f8f-80df-59c8a2337474.png)
 
-![gigpond_home_1](https://user-images.githubusercontent.com/104790363/231290539-64715f7f-0136-4cd8-ac5c-d79f5eb84dae.png)
+![gigpond_home_dark](https://user-images.githubusercontent.com/104790363/231465309-34802c64-6e46-418d-a582-93274fa2664a.png)
 
 ## Table of contents
 - [Introduction](#introduction)
@@ -150,27 +150,27 @@ DEFAULT_FROM_EMAIL = 'YOUR EMAIL ADDRESS'
 ```
 
 ## Green Version (Default Version)
-![gigpond_green](https://user-images.githubusercontent.com/104790363/231354979-6a0c61df-139d-4e49-9736-93f2b00625c7.png)
+![gigpond_cl_green](https://user-images.githubusercontent.com/104790363/231465560-fda55545-f0ef-47b0-a2a6-e946718bcf03.png)
 
 The green color version is a default version set by `color="green"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Blue Version
-![gigpond_blue](https://user-images.githubusercontent.com/104790363/231355411-fb9ce096-5621-43ac-9ffe-707ac36a9442.png)
+![gigpond_srv_blue](https://user-images.githubusercontent.com/104790363/231465702-328581c2-d8ec-4bbe-8e72-dd4b66c88ccd.png)
 
 The Blue color set by `color="blue"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Purple Version
-![gigpond_purple](https://user-images.githubusercontent.com/104790363/231355488-423f3b4f-97c5-47ed-8bd5-16611884dbfc.png)
+![gigpond_faq_purple](https://user-images.githubusercontent.com/104790363/231465822-6cb4f356-aef4-4541-a4ea-48a705dfe695.png)
 
 The Purple color set by `color="purple"` at line number 31 in the `src/js/pages/switcher.init.js.`
 
 ## Light Mode
-![gigpond_light](https://user-images.githubusercontent.com/104790363/231355795-4648712e-f188-443b-8661-0e5ed7e0e61c.png)
+![gigpond_job_light](https://user-images.githubusercontent.com/104790363/231465904-a6dccbcf-f3fa-4b58-bb6d-e67c84115c9a.png)
 
 The Light color set by `var mode = 'light'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
 ## Dark Mode
-![gigpond_dark](https://user-images.githubusercontent.com/104790363/231355865-fae2e287-9e3a-4623-b674-db271d629401.png)
+![gigpond_pri_dark](https://user-images.githubusercontent.com/104790363/231465994-f4d219d6-9279-4ece-a184-d8ff3a914fdd.png)
 
 The Dark color set by `var mode = 'dark'` at line number 49 in the `src/js/pages/switcher.init.js.`
 
