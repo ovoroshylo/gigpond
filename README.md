@@ -28,7 +28,7 @@ If you have any questions, feel free to email me on ovorshylo3@gmail.com
 Gigpond Installation in Django Python
 - Python Version >> 3.8.10
 - Django Version >> 3.2.7
-- Bootstrap Version >> 5.1.1
+<!-- - Bootstrap Version >> 5.1.1 -->
 
 ### Prerequisites
 Please follow below steps to install and setup all prerequisites:
