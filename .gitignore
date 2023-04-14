@@ -1,8 +1,8 @@
 assets
-gigpond/
-node_modules/
-pages/
-screenshots/
-static/
-templates/
+gigpond
+node_modules
+pages
+screenshots
+static
+templates
 readme.txt
