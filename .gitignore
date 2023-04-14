@@ -3,6 +3,9 @@ gigpond
 node_modules
 pages
 screenshots
+src/fonts
+src/images
+src/scss
 static
 templates
 readme.txt
